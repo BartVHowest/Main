@@ -13,7 +13,7 @@ app.get('/', function(req, res){
   res.send('NodeJS is running!');
 });
 
-http.listen(app.get('port'), app.get('ip'), function () {
+http.listen(server_port, server_ip_address, function () {
   console.log( "Listening on " + server_ip_address + ", port " + server_port );
 });
 
